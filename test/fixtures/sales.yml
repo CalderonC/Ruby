@@ -1,0 +1,63 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  File_ID: MyString
+  File_Record_ID: 1
+  L01_Afltn_Number: 1
+  L01_Afltn_Name: MyString
+  Ship_To_Location_Num: 1
+  Customer_Number: 1
+  Customer_Name: MyString
+  Address_Txt: MyString
+  City: MyString
+  State: MyString
+  Zip: MyString
+  Dea_Num: MyString
+  Cogs_Mult_Num: 9.99
+  Contract_Group_Number: 1
+  Contract_Group_Name: MyString
+  Invoice_Date: 2021-12-22
+  Invoice_Number: 1
+  NDC: 1
+  Corporate_Item_Number: 1
+  Corporate_Description: MyString
+  Supplier_Number: 1
+  Supplier_Name: MyString
+  Ship_Qty: 9.99
+  Ext_Sell_Dlr: 9.99
+  GPO_Revenue: 9.99
+  GPO_Member: MyString
+  Master_Record_Id: MyString
+  Source: MyString
+  SPx: MyString
+
+two:
+  File_ID: MyString
+  File_Record_ID: 1
+  L01_Afltn_Number: 1
+  L01_Afltn_Name: MyString
+  Ship_To_Location_Num: 1
+  Customer_Number: 1
+  Customer_Name: MyString
+  Address_Txt: MyString
+  City: MyString
+  State: MyString
+  Zip: MyString
+  Dea_Num: MyString
+  Cogs_Mult_Num: 9.99
+  Contract_Group_Number: 1
+  Contract_Group_Name: MyString
+  Invoice_Date: 2021-12-22
+  Invoice_Number: 1
+  NDC: 1
+  Corporate_Item_Number: 1
+  Corporate_Description: MyString
+  Supplier_Number: 1
+  Supplier_Name: MyString
+  Ship_Qty: 9.99
+  Ext_Sell_Dlr: 9.99
+  GPO_Revenue: 9.99
+  GPO_Member: MyString
+  Master_Record_Id: MyString
+  Source: MyString
+  SPx: MyString
