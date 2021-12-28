@@ -5,6 +5,6 @@ class AdministratorController < ApplicationController
   end
   def members_source_gcr
   end
-  def members_spend
+    def members_spend
   end
 end

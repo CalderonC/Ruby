@@ -27,22 +27,25 @@
                 <li><a href=""><%= image_tag("round_groups_white.png", {:alt => "rss feed" , :class => "image"}) %></a></li>
                 <li><a href=""><%= image_tag("round_format_list_bulleted_white.png", {:alt => "rss feed" , :class => "image"}) %></a></li>
                 <li><a href=""><%= image_tag("round_settings_white.png", {:alt => "rss feed" , :class => "image"}) %></a></li>
-                <li><%=link_to (image_tag("round_home_white.png", {:alt => "rss feed" , :class => "image", style:"margin-top: 40px;"})), :controller => :administrator, :action => :gpo_revenue %></li>
+                <li><%= link_to (image_tag("round_home_white.png", {:alt => "rss feed" , :class => "image", style:"margin-top: 40px;"})), :controller => :administrator, :action => :gpo_revenue %></li>
               </ul>
             </nav>
           </div>
           <div class="divh">
             <nav class="links" style="--items: 6;">
-              <%= link_to "GPO Revenue",:controller => :administrator, :action => :gpo_revenue %>
-              <%= link_to "GPO Spend",:controller => :administrator, :action => :gpo_spend %>
-              <%= link_to "Members`s Spend",:controller => :administrator, :action => :members_spend %>
-              <%= link_to "Members`s Source GCR",:controller => :administrator, :action => :members_source_gcr %>
+              <%= link_to ("GPO Revenue"), :controller => :administrator, :action => :gpo_revenue %>
+              <%= link_to ("GPO Spend"), :controller => :administrator, :action => :gpo_spend %>
+              <%= link_to ("Members`s Spend"), :controller => :administrator, :action => :members_spend %>
+              <%= link_to ("Members`s Source GCR"), :controller => :administrator, :action => :members_source_gcr %>
               <a></a>
               <a></a>
               <span class="line"></span>
             </nav>
+
           </div>
           <div class="main" style="width: 70%">
+            <p class="notice"><%= notice %></p>
+            <p class="alert"><%= alert %></p>
             <%= yield %>
           </div>
         </div>
